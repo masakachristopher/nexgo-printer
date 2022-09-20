@@ -78,7 +78,7 @@ public class NexgoModule extends ReactContextBaseJavaModule implements OnPrintLi
         switch (initResult){
             case SdkResult.Success:
                 Log.d(TAG, "Printer init success");
-                promise.resolve("Printer init success");
+                // promise.resolve("Printer init success");
 
                 printMerchantSummary(
                     coverName,
