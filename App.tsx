@@ -9,7 +9,6 @@
  import React from 'react';
  import {
    SafeAreaView,
-   StyleSheet,
    Button
  } from 'react-native';
  
